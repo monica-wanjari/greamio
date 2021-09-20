@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3rd Task</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Send Data For Institution</header>
+    <form action="connection.php" method="post">
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="name" placeholder="Enter your name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Enter your email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+      </div>
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="phone" placeholder="Enter your phone" required>
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="gender" placeholder="Enter your gender" required>
+          <i class="fas fa-venus-mars"></i>
+        </div>
+      </div>
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="fees" placeholder="Enter your Fees" required>
+          <i class="fas fa-rupee-sign"></i>
+        </div>
+        <div class="field">
+          <input type="time" name="time" placeholder="Enter your Preferable Time" required>
+          <i class="fas fa-user-clock"></i>
+        </div>
+      </div>
+      <div class="message">
+        <textarea placeholder="Write your address" name="address" required></textarea>
+        <i class="fas fa-map-pin"></i>
+      </div>
+      <div class="button-area">
+       <a href="table.php"><button type="submit" name="task">Send Message</button></a>
+        <span></span>
+      </div>
+    </form>
+  </div>
+<!--  <script src="script.js"></script>-->
+
+</body>
+</html>
